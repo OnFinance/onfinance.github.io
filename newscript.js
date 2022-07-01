@@ -110,7 +110,7 @@ $(document).ready(function(){
                 items: 3,
                 stagePadding: 70,
             },
-            1250:{
+            1300:{
                 items: 3,
                 stagePadding: 0,
             }
