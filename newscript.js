@@ -19,11 +19,13 @@ window.addEventListener('scroll', () => {
 
 const popup = document.querySelector('.popupBox');
 const popupclose = document.querySelector('.popupclosebtn');
-// const popupopen = document.querySelector('.specialRewards');
+const popupopen = document.querySelectorAll('.specialRewards');
 
-// popupopen.addEventListener('click', () => {
-//     popup.classList.remove('hidden');
-// });
+popupopen.forEach(item => {
+    item.addEventListener('click', () => {
+        popup.classList.remove('hidden');
+    })
+});
 
 const OpenPopup = () => {
     popup.classList.remove('hidden');
@@ -107,10 +109,14 @@ $(document).ready(function(){
             1200:{
                 items: 3,
                 stagePadding: 70,
+            },
+            1250:{
+                items: 3,
+                stagePadding: 0,
             }
         },
     });
     
-    setTimeout(OpenPopup,3000);
+    setTimeout(OpenPopup,1500);
 });
 
