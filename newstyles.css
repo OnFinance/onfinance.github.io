@@ -944,53 +944,53 @@ a{
 }
 
 footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    width: 80%;
-    margin-inline: auto;
-    justify-items: center;
-    padding-block: 1rem;
-    align-items: center;
-    gap: 2rem;
-/*    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 0.75rem;
-    padding-inline: 10rem;*/
+	display: grid;
+	grid-template-columns: 3fr 2fr 4fr;
+	grid-template-rows: 4fr 1fr;
+	gap: 1rem;
+	justify-items: center;
+	align-items: center;
 }
 
-footer img {
-    grid-row-start: span 2;
-    width: 64px;
-    height: 64px;
+#footer-col-1 {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#footer-col-2 ul {
+	list-style-type: none;
+}
+
+#footer-col-2 ul li {
+	font-weight: 600;
+	margin: 0.8rem;
+}
+
+#footer-col-2 ul li a {
+	color: inherit;
+}
+
+#footer-col-2 ul li a:hover {
+	color: lightgrey;
 }
 
 footer h2 {
-    border-bottom: 2px solid #33304b;
+	border-bottom: 2px solid #33304b;
 }
 
 footer h2:hover {
-    border-bottom: 2px solid white;
-    transition-duration: 200ms;
+	border-bottom: 2px solid white;
+	transition-duration: 200ms;
 } 
 
-#footer-title {
-    grid-column-start: span 3;
-    font-size: 2.5rem;
-    text-align: center;
-}
-
 #footer-email {
-    grid-row-start: span 2;
-    line-height: 2;
-    display: flex;
-    flex-direction: row;
-    column-gap: 1rem;
-    align-items: center;
+	line-height: 2;
+	display: flex;
+	flex-direction: row;
+	column-gap: 1rem;
+	align-items: center;
 }
 
 #footer-email i,#footer-phone i {
@@ -999,15 +999,63 @@ footer h2:hover {
     font-size: 24px;
 }
 
+#footer-signup {
+	text-align: center;
+	width: 80%;
+}
+
+#footer-signup h2 {
+	padding-bottom: 0.7rem;
+}
+
+#footer-signup p {
+	padding: 0.75rem 0.5rem 0.75rem 0.5rem;
+	text-align:left;
+}
+
+#footer-signup form {
+	display: flex;
+	flex-direction: row;
+	height: 2.5rem;
+	gap: 1rem;
+}
+
+#footer-signup form button {
+	background-color: #666666;
+	padding-inline: 1rem;
+	display: grid; 
+	place-items: center;
+	color: white;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-size: 1rem;
+}
+
+#footer-signup form button:hover {
+	background-color: #353839;
+}
+
+#signup-input {
+	width: 100%;
+	background-color: #0e0d1b;
+	color: inherit;
+	font-size: 1.2rem;
+	outline: none;
+	padding: 8px 8px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 0.5rem;
+}
+
 #footer-phone {
-    grid-row-start: span 2;
-    text-align: center;
-    line-height: 2;
+	text-align: center;
+	line-height: 2;
 }
 
 .contacts {
-    padding: 1.5rem 0 0.5rem 0;
-    grid-column-start: span 3;
+	padding-block: 1rem;
+    grid-column-start: span 4;
     border-top: 2px solid #33304b;
     display: flex;
     flex-direction: row;
@@ -1047,13 +1095,14 @@ footer h2:hover {
 }
 
 @media screen and (max-width: 768px) {
-    footer {
-	flex-direction: column-reverse;
-	row-gap: 1rem;
-	align-items: center;
-    }
-    .contacts {
-	justify-content: space-evenly;
-	width: 80%;
-    }
+	footer {
+		display: flex;
+		flex-direction: column;
+		padding-top: 1rem;
+		row-gap: 2rem;
+	}
+	#footer-col-1 {
+		justify-content: center;
+		align-items: center;
+	}
 }
