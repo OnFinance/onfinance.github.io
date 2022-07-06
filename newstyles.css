@@ -411,7 +411,7 @@ a{
     align-items: flex-start;
     padding: 4rem;
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0;
 }
 .featscreen{
     width:40%;
@@ -641,7 +641,6 @@ a{
 .testTitle{
     font-size: 2.2rem;
     font-weight: 700;
-    margin-bottom: 2rem;
     padding: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid white;
