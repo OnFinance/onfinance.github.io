@@ -235,12 +235,6 @@ a {
     justify-content: flex-start;
     align-items: center;
 }
-
-.headerlogo {
-    height: 8.45vh;
-    margin: 2.8169vh;
-}
-
 .headername {
     font-size: 5.070vh;
     font-weight: 700;
@@ -269,7 +263,17 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+@media screen and (min-width:1280px) {
+    .headerlogo {
+        height: 8.45vh;
+        margin: 2.8169vh;
+    }
+}
+@media screen and (max-width:1280px) {
+    .headerlogo {
+        height: 3rem;
+    }
+}
 @media screen and (max-width: 768px) {
     .nav {
         width: 100vw;
