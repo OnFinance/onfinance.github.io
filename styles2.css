@@ -552,7 +552,7 @@ a {
 
 /* features */
 .pt {
-    padding-top: 11.2676vh;
+    margin-top: 4rem;
 }
 
 .title {
@@ -676,7 +676,7 @@ a {
 
 @media screen and (max-width: 980px) {
     .pt {
-        padding-top: 4rem;
+        margin-top: 4rem;
     }
 
     .title {
@@ -781,6 +781,7 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+    margin-top: 4rem;
 }
 
 .gallerycarousel {
@@ -831,6 +832,7 @@ a {
     .gallery {
         width: 100vw;
         max-width: 80rem;
+        margin-top: 4rem;
     }
     .galleryitem {
         width: 16rem;
@@ -904,6 +906,7 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 4rem;
     }
 
     .testTitle {
@@ -1044,6 +1047,7 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 4rem;
     }
 
     .testTitle {
@@ -1199,6 +1203,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .abttitle {
@@ -1253,6 +1258,7 @@ a {
         width: 100vw;
         max-width: 80rem;
         min-height: 100vh;
+        margin-top: 4rem;
     }
     .abttitle {
         padding-bottom: 1rem;
@@ -1306,6 +1312,7 @@ a {
         justify-content: space-evenly;
         flex-wrap: wrap;
         row-gap: 1.5rem;
+        margin-top: 4rem;
     }
 
     .card {
@@ -1368,6 +1375,7 @@ a {
         justify-content: space-evenly;
         flex-wrap: wrap;
         row-gap: 4.225vh;
+        margin-top: 4rem;
     }
 
     .card {

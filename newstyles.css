@@ -391,7 +391,7 @@ a{
 
 /* features */
 .pt {
-    padding-top: 4rem;
+    margin-top: 4rem;
 }
 
 .title {
@@ -551,6 +551,7 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+    margin-top: 4rem;
 }
 .gallerycarousel{
     width: 60%;
@@ -637,6 +638,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 .testTitle{
     font-size: 2.2rem;
@@ -849,6 +851,7 @@ a{
     justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 1.5rem;
+    margin-top: 4rem;
 }
 
 .card {
