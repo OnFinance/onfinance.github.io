@@ -33,17 +33,17 @@ a {
 .popupBox {
     width: 84%;
     /* max-width: 67rem; */
-    height: 85vh;
+    height: calc(3/4* 85vh);
     z-index: 10;
 
     background: radial-gradient(102.34% 323.35% at 100% 44.05%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.26) 0.01%, rgba(255, 255, 255, 0.04) 51.44%, rgba(255, 255, 255, 0.1) 100%, rgba(255, 255, 255, 0.3) 100%, rgba(255, 255, 255, 0.16) 100%);
     box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(0.625vw);
 
-    border-radius: 1.5625vw;
+    border-radius: calc(3/4* 1.5625vw);
 
     position: fixed;
-    top: 11.2676vh;
+    top: calc(3/4* 22.2676vh);
     left: auto;
     right: auto;
 
@@ -51,15 +51,15 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 5.6338vh;
-    padding-left: 1.25vw;
-    padding-right: 3.75vw;
+    padding: calc(3/4* 5.6338vh);
+    padding-left: calc(3/4* 1.25vw);
+    padding-right: calc(3/4* 3.75vw);
 }
 
 .popupclosebtn {
     position: absolute;
-    top: 2.1126vh;
-    right: 0.9375vw;
+    top: calc(3/4* 2.1126vh);
+    right: calc(3/4* 0.9375vw);
 }
 
 .popupclosebtn:hover path {
@@ -68,7 +68,7 @@ a {
 }
 
 .popupimage {
-    width: 55%;
+    width: 45%;
 }
 
 .popupimg {
@@ -84,8 +84,8 @@ a {
 }
 
 .popuptext {
-    font-size: 4.2253vh;
-    margin-bottom: 5.6338vh;
+    font-size: calc(3/4* 4.2253vh);
+    margin-bottom: calc(3/4* 5.6338vh);
     text-align: center;
 
     font-family: 'Gilroy-Bold', sans-serif;
@@ -93,25 +93,25 @@ a {
 
 .popupfeild {
     width: 95%;
-    height: 7.6056vh;
+    height: calc(3/4* 7.6056vh);
     background: #0A0823B2;
     border: 3px solid #BCBBC3;
-    box-shadow: inset 0px 0.3125vw 0.3125vw rgba(0, 0, 0, 0.25);
-    border-radius: 0.78125vw;
+    box-shadow: inset 0px calc(3/4* 0.3125vw) calc(3/4* 0.3125vw) rgba(0, 0, 0, 0.25);
+    border-radius: calc(3/4* 0.78125vw);
     color: white;
-    font-size: 2.8169vh;
-    padding: 2.8169vh 1.25vw;
-    margin-bottom: 2.8169vh;
+    font-size: calc(3/4* 2.8169vh);
+    padding: calc(3/4* 2.8169vh) calc(3/4* 1.25vw);
+    margin-bottom: calc(3/4* 2.8169vh);
 
     font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .popupbtn {
     background: #535265;
-    width: 12.5vw;
-    padding: 1.4084vh 0.625vw;
-    border-radius: 1.5625vw;
-    font-size: 3.3802vh;
+    width: calc(3/4* 12.5vw);
+    padding: calc(3/4* 1.4084vh) calc(3/4* 0.625vw);
+    border-radius: calc(3/4* 1.5625vw);
+    font-size: calc(3/4* 3.3802vh);
     border: 0;
     color: white;
 
