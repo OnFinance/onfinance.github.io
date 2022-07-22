@@ -104,11 +104,11 @@ $(document).ready(function(){
             },
             1100: {
                 items: 3,
-                stagePadding: 20,
+                // stagePadding: 20,
             },
             1200:{
                 items: 3,
-                stagePadding: 70,
+                // stagePadding: 70,
             },
             1300:{
                 items: 3,
@@ -117,6 +117,6 @@ $(document).ready(function(){
         },
     });
     
-    // setTimeout(OpenPopup,1500);
+    setTimeout(OpenPopup,1500);
 });
 
