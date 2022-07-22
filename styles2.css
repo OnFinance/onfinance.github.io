@@ -611,13 +611,25 @@ a {
     overflow: hidden;
 }
 
-.ftframe {
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    width: calc(3/4* 22.5vw);
-    height: calc(3/4* 90.5492vh);
-    z-index: 4;
+
+@media screen and (max-width: 1280px){
+    .ftframe {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        width: calc(3/4* 22.5vw);
+        z-index: 4;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .ftframe {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        width: calc(3/4* 22.5vw);
+        height: calc(3/4* 90.5492vh);
+        z-index: 4;
+    }
 }
 
 .featimager {
