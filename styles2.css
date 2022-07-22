@@ -616,6 +616,7 @@ a {
     top: 0rem;
     left: 0rem;
     width: calc(3/4* 22.5vw);
+    height: calc(3/4* 90.5492vh);
     z-index: 4;
 }
 
@@ -624,8 +625,8 @@ a {
     top: calc(3/4* 1.4084vh);
     left: calc(3/4* 1.875vw);
     width: calc(3/4* 18.75vw);
-    height: calc(3/4* 91.5492vh);
-    max-height: calc(3/4* 1140px * 0.915482);
+    height: calc(3/4* 88.5492vh);
+    /* max-height: calc(3/4* 1140px * 0.915482); */
     overflow: hidden;
     z-index: 2;
     border-radius: 1.25vw;
@@ -1484,7 +1485,7 @@ footer {
 
 #footer-col-2 ul li {
     font-weight: 600;
-    margin: 0.8rem;
+    margin: calc(3/4* 0.8rem);
 }
 
 #footer-col-2 ul li a {
@@ -1514,9 +1515,9 @@ footer h2:hover {
 
 #footer-email i,
 #footer-phone i {
-    width: 24px;
-    height: 24px;
-    font-size: 24px;
+    width: calc(3/4* 24px);
+    height: calc(3/4* 24px);
+    font-size: calc(3/4* 24px);
 }
 
 #footer-signup {
@@ -1525,31 +1526,31 @@ footer h2:hover {
 }
 
 #footer-signup h2 {
-    padding-bottom: 0.7rem;
+    padding-bottom: calc(3/4* 0.7rem);
 }
 
 #footer-signup p {
-    padding: 0.75rem 0.5rem 0.75rem 0.5rem;
+    padding: calc(3/4* 0.75rem) calc(3/4* 0.5rem) calc(3/4* 0.75rem) calc(3/4* 0.5rem);
     text-align: left;
 }
 
 #footer-signup form {
     display: flex;
     flex-direction: row;
-    height: 2.5rem;
-    gap: 1rem;
+    height: calc(3/4* 2.5rem);
+    gap: calc(3/4* 1rem);
 }
 
 #footer-signup form button {
     background-color: #666666;
-    padding-inline: 1rem;
+    padding-inline: calc(3/4* 1rem);
     display: grid;
     place-items: center;
     color: white;
     outline: none;
     border: none;
-    border-radius: 10px;
-    font-size: 1rem;
+    border-radius: calc(3/4* 10px);
+    font-size: calc(3/4* 1rem);
 }
 
 #footer-signup form button:hover {
@@ -1560,12 +1561,12 @@ footer h2:hover {
     width: 100%;
     background-color: #0e0d1b;
     color: inherit;
-    font-size: 1.2rem;
+    font-size: calc(3/4* 1.2rem);
     outline: none;
-    padding: 8px 8px;
+    padding: calc(3/4* 8px) calc(3/4* 8px);
     box-sizing: border-box;
     border: none;
-    border-radius: 0.5rem;
+    border-radius: calc(3/4* 0.5rem);
 }
 
 #footer-phone {
@@ -1574,7 +1575,7 @@ footer h2:hover {
 }
 
 .contacts {
-    padding-block: 1rem;
+    padding-block: calc(3/4* 1rem);
     grid-column-start: span 4;
     border-top: 2px solid #33304b;
     display: flex;
@@ -1612,9 +1613,9 @@ footer h2:hover {
 }
 
 .contacts a i {
-    width: 42px;
-    height: 42px;
-    font-size: 42px;
+    width: calc(3/4* 42px);
+    height: calc(3/4* 42px);
+    font-size: calc(3/4* 42px);
 }
 
 @media screen and (max-width: 768px) {
