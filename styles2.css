@@ -208,15 +208,15 @@ a {
     width: 100vw;
     /* max-width: 80rem; */
     /* height: 4rem; */
-    height: 11.267vh;
+    height: calc(3/4* 11.267vh);
     /* height: 35.5rem; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1.408vh;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
+    padding-top: calc(3/4*4.408vh);
+    padding-left: calc(3/4*7.5vw);
+    padding-right: calc(3/4*7.5vw);
 }
 
 .hamburger {
@@ -236,7 +236,7 @@ a {
     align-items: center;
 }
 .headername {
-    font-size: 5.070vh;
+    font-size: calc(3/4* 5.070vh);
     font-weight: 700;
 }
 
@@ -245,15 +245,15 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0 1.25vw;
+    margin: 0 calc(3/4* 1.25vw);
 }
 
 .navlink {
-    font-size: 3.098vh;
+    font-size: calc(3/4* 3.098vh);
     font-weight: 400;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 0 1.25vw;
+    margin: 0 calc(3/4* 1.25vw);
     cursor: pointer;
 }
 
@@ -263,18 +263,22 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-@media screen and (min-width:1280px) {
-    .headerlogo {
-        height: 8.45vh;
-        margin: 2.8169vh;
-    }
+.headerlogo {
+    height: calc(3/4* 8.45vh);
+    margin: calc(3/4* 2.8169vh);
 }
-@media screen and (max-width:1280px) {
+/* @media screen and (min-width:1280px) {
+    .headerlogo {
+        height: calc(3/4* 8.45vh);
+        margin: calc(3/4* 2.8169vh);
+    }
+} */
+/* @media screen and (max-width:1280px) {
     .headerlogo {
         height: 3rem;
         margin: 1rem;
     }
-}
+} */
 @media screen and (max-width: 768px) {
     .nav {
         width: 100vw;
@@ -350,7 +354,8 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2.81vh 6.25vw;
+    /* padding: 2.81vh 6.25vw; */
+    padding: calc(5.4vh *4.5/3) calc(7.125vw *4.5/3);
 }
 
 .taglines {
@@ -362,13 +367,16 @@ a {
 }
 
 .tline {
-    font-size: 7.042vh;
+    /* font-size: 7.042vh; */
+    font-size: calc(4.5/3 * 3.521vh);
     font-weight: 700;
-    margin: 1.408vh 0;
+    /* margin: 1.408vh 0; */
+    margin: 0.704vh 0;
 }
 
 .tlineg {
-    font-size: 8.4507vh;
+    /* font-size: 8.4507vh; */
+    font-size: calc(4.5/3* 4.225vh);
     font-weight: 600;
 
     background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
@@ -377,9 +385,11 @@ a {
 }
 
 .sline {
-    font-size: 2.8169vh;
+    /* font-size: 2.8169vh; */
+    font-size: calc(4.5/3* 1.634vh);
     font-weight: 300;
-    margin: 1.408vh 0;
+    /* margin: 1.408vh 0; */
+    margin: calc(4.5/3 * 0.704vh) 0;
 }
 
 .downloadoptions {
@@ -391,9 +401,12 @@ a {
 }
 
 .downloadbtn {
-    margin-top: 5.6338vh;
-    margin-right: 2.5vw;
-    width: 15vw;
+    /* margin-top: 5.6338vh; */
+    margin-top: calc(4.5/3* 2.8169vh);
+    /* margin-right: 2.5vw; */
+    margin-right: calc(4.5/3* 1.25vw);
+    /* width: 15vw; */
+    width: calc(4.5/3* 7.5vw);
     box-shadow: 0.1562vw 0.1562vw 0.78125vw #000000;
 }
 
@@ -406,15 +419,19 @@ a {
 }
 
 .landingscreen {
-    margin-top: 8.4507vh;
-    height: 73.2394vh;
-    padding: 0 3.75vw;
+    /* margin-top: 8.4507vh; */
+    margin-top: calc(4.5/3* 4.225vh);
+    /* height: 73.2394vh; */
+    height: calc(4.5/3* 35.5vh);
+    /* padding: 0 3.75vw; */
+    padding: 0 calc(4.5/3* 1.875vw);
     overflow: hidden;
     position: relative;
 }
 
 .landingss {
-    height: 95.7746vh;
+    /* height: 95.7746vh; */
+    height: calc(4.5/3* 47.5vh);
 }
 
 .blurer {
@@ -422,7 +439,8 @@ a {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 42.2535vh;
+    /* height: 42.2535vh; */
+    height: calc(4.5/3* 21.5vh);
     background: linear-gradient(to top,
             rgba(10, 8, 35, 100) 0%,
             rgba(10, 8, 35, 0) 100%);
@@ -433,13 +451,15 @@ a {
 }
 
 .ci1 {
-    width: 10vw;
+    /* width: 10vw; */
+    width: calc(4.5/3* 5vw);
     top: 10%;
     right: 0;
 }
 
 .ci2 {
-    width: 8.75vw;
+    /* width: 8.75vw; */
+    width: calc(4.5/3* 5.625vw);
     bottom: 10%;
     left: 0;
 }
@@ -552,14 +572,14 @@ a {
 
 /* features */
 .pt {
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
 .title {
-    font-size: 6.1971vh;
+    font-size: calc(3/4* 6.1971vh);
     font-weight: 700;
     border-bottom: 0.078125vw solid white;
-    padding-bottom: 1.4084vh;
+    padding-bottom: calc(3/4* 1.4084vh);
 }
 
 .features {
@@ -570,8 +590,8 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 5vw;
-    padding-top: 8.4507vh;
+    padding: calc(3/4* 10vw);
+    padding-top: calc(3/4* 8.4507vh);
     padding-bottom: 0;
 }
 
@@ -585,9 +605,9 @@ a {
 
 .phonescreenft {
     position: relative;
-    width: 22.5vw;
-    height: 94.9295vh;
-    border-radius: 2.5vw;
+    width: calc(3/4* 22.5vw);
+    height: calc(3/4* 94.9295vh);
+    border-radius: calc(3/4* 2.5vw);
     overflow: hidden;
 }
 
@@ -595,16 +615,16 @@ a {
     position: absolute;
     top: 0rem;
     left: 0rem;
-    width: 22.5vw;
+    width: calc(3/4* 22.5vw);
     z-index: 4;
 }
 
 .featimager {
     position: absolute;
-    top: 1.4084vh;
-    left: 1.875vw;
-    width: 18.75vw;
-    height: 91.5492vh;
+    top: calc(3/4* 1.4084vh);
+    left: calc(3/4* 1.875vw);
+    width: calc(3/4* 18.75vw);
+    height: calc(3/4* 91.5492vh);
     max-height: calc(1140px * 0.915482);
     overflow: hidden;
     z-index: 2;
@@ -612,7 +632,7 @@ a {
 }
 
 .ftimg {
-    width: 18.75vw;
+    width: calc(3/4* 18.75vw);
 }
 
 .featcontainer {
@@ -625,18 +645,18 @@ a {
 }
 
 .featpoint {
-    font-size: 4.2253vh;
+    font-size: calc(3/4* 4.2253vh);
     font-weight: 700;
 
     padding: 5px;
 
-    margin: 4.9295vh 2.1875vw;
-    border-radius: 0.4687vw;
+    margin: calc(3/4* 4.9295vh) calc(3/4* 2.1875vw);
+    border-radius: calc(3/4* 0.4687vw);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 0.7812vw #000000;
+    box-shadow: 0px 0px calc(3/4* 0.7812vw) #000000;
 
     /* vanilla tilt  */
     transform-style: preserve-3d;
@@ -649,10 +669,10 @@ a {
 
 .featurepoint {
     background: radial-gradient(#0D0A2E 0%, #000000 150%);
-    border-radius: 0.3125vw;
-    width: 20vw;
-    height: 22.5352vh;
-    padding: 2.8169vh 1.25vw;
+    border-radius: calc(3/4* 0.3125vw);
+    width: calc(3/4* 20vw);
+    height: calc(3/4* 22.5352vh);
+    padding: calc(3/4* 2.8169vh) calc(3/4* 1.25vw);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -664,11 +684,11 @@ a {
 }
 
 .ftimage {
-    top: -8.4507vh;
+    top: calc(3/4* -8.4507vh);
     left: auto;
     right: auto;
     position: absolute;
-    width: 7.5vw;
+    width: calc(3/4* 7.5vw);
 
     /* vanilla tilt  */
     transform: translateZ(20px);
@@ -676,7 +696,7 @@ a {
 
 @media screen and (max-width: 980px) {
     .pt {
-        margin-top: 4rem;
+        margin-top: 8rem;
     }
 
     .title {
@@ -781,7 +801,8 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    margin-top: 4rem;
+    margin-top: 8rem;
+    padding: 0 calc(3.5vw *4.5/3);
 }
 
 .gallerycarousel {
@@ -789,7 +810,7 @@ a {
 }
 
 .galleryitem {
-    width: 20vw;
+    width: calc(3/4* 20vw);
     position: relative;
 }
 
@@ -804,11 +825,11 @@ a {
 }
 
 .gallerytitle {
-    font-size: 5.0704vh;
+    font-size: calc(3/4* 5.0704vh);
     font-weight: 700;
     border-bottom: 0.0781vw solid white;
-    padding-bottom: 1.4084vh;
-    margin-bottom: 5.6338vh;
+    padding-bottom: calc(3/4* 1.4084vh);
+    margin-bottom: calc(3/4* 5.6338vh);
 }
 
 .gallerytitle:hover {
@@ -819,12 +840,12 @@ a {
 
 .gallerybox {
     width: 93%;
-    padding: 0.3521vh 0.15625vw;
-    border-radius: 0.5468vw;
+    padding: calc(3/4* 0.3521vh) calc(3/4* 0.15625vw);
+    border-radius: calc(3/4* 0.5468vw);
 }
 
 .galleryinfotext {
-    font-size: 3.3802vh;
+    font-size: calc(3/4* 3.3802vh);
     font-weight: 500;
 }
 
@@ -832,7 +853,7 @@ a {
     .gallery {
         width: 100vw;
         max-width: 80rem;
-        margin-top: 4rem;
+        margin-top: 8rem;
     }
     .galleryitem {
         width: 16rem;
@@ -906,7 +927,7 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 4rem;
+        margin-top: 8rem;
     }
 
     .testTitle {
@@ -1047,14 +1068,14 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 4rem;
+        margin-top: 8rem;
     }
 
     .testTitle {
-        font-size: 6.1971vh;
+        font-size: calc(3/4* 6.1971vh);
         font-weight: 700;
-        padding: 1.7605vh 0.7812vw;
-        padding-bottom: 0.8802vh;
+        padding: calc(3/4* 1.7605vh) calc(3/4* 0.7812vw);
+        padding-bottom: calc(3/4* 0.8802vh);
         border-bottom: 0.0781vw solid white;
     }
 
@@ -1068,15 +1089,15 @@ a {
         justify-content: center;
         align-items: center;
         position: relative;
-        margin-bottom: 11.2676vh;
-        padding-top: 5.6336vh;
+        margin-bottom: calc(3/4* 11.2676vh);
+        padding-top: calc(3/4* 5.6336vh);
     }
 
     .testboxout {
-        padding: 0.8802vh 0.3906vw;
+        padding: calc(3/4* 0.8802vh) calc(3/4* 0.3906vw);
         background: #0a0823;
         position: relative;
-        border-radius: 0.7812vw;
+        border-radius: calc(3/4* 0.7812vw);
         z-index: 3;
 
         /* vanilla tilt  */
@@ -1085,26 +1106,26 @@ a {
     }
 
     .testboxbackdrop {
-        width: 27.5vw;
-        height: 22.5352vh;
+        width: calc(3/4* 27.5vw);
+        height: calc(3/4* 22.5352vh);
         position: absolute;
-        top: 0.8802vh;
-        left: 0.3906vw;
+        top: calc(3/4* 0.8802vh);
+        left: calc(3/4* 0.3906vw);
         background: #0a0823;
-        border-radius: 0.625vw;
+        border-radius: calc(3/4* 0.625vw);
         z-index: 4;
     }
 
     .testbox {
-        width: 27.5vw;
-        height: 22.5352vh;
+        width: calc(3/4* 27.5vw);
+        height: calc(3/4* 22.5352vh);
         background: radial-gradient(140.69% 286.82% at 84.33% -29.29%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 0.01%, rgba(255, 255, 255, 0.14) 0.02%, rgba(255, 255, 255, 0) 99.97%, rgba(255, 255, 255, 0.1) 99.98%, rgba(255, 255, 255, 0) 99.99%);
         box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
-        backdrop-filter: blur(3.2812vw);
+        backdrop-filter: blur(calc(3/4* 3.2812vw));
 
-        border-radius: 0.625vw;
+        border-radius: calc(3/4* 0.625vw);
 
-        padding: 2.8169vh 1.25vw;
+        padding: calc(3/4* 2.8169vh) calc(3/4* 1.25vw);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1119,20 +1140,20 @@ a {
     }
 
     .testlight {
-        width: 30vw;
-        height: 16.9014vh;
+        width: calc(3/4* 30vw);
+        height: calc(3/4* 16.9014vh);
         background: radial-gradient(48.73% 41.22% at 49.99% 58.78%, rgba(217, 217, 217, 0.47) 0%, rgba(34, 39, 61, 0) 90%);
         border-radius: 1.5625vw;
         position: absolute;
-        bottom: -8.4507vh;
+        bottom: calc(3/4* -8.4507vh);
         left: auto;
         right: auto;
         z-index: 2;
     }
 
     .testimage {
-        width: 7.5vw;
-        height: 7.5vw;
+        width: calc(3/4* 7.5vw);
+        height: calc(3/4* 7.5vw);
         border-radius: 50%;
         overflow: hidden;
 
@@ -1143,8 +1164,8 @@ a {
     }
 
     .testcontent {
-        width: 12.5vw;
-        height: 16.9014vh;
+        width: calc(3/4* 12.5vw);
+        height: calc(3/4* 16.9014vh);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1154,26 +1175,26 @@ a {
     }
 
     .testcomment {
-        font-size: 2.2535vh;
+        font-size: calc(3/4* 2.2535vh);
         font-weight: 500;
         word-wrap: break-word;
     }
 
     .testauthor {
-        font-size: 1.9718vh;
+        font-size: calc(3/4* 1.9718vh);
         font-weight: 500;
     }
     .testimonials .active .testbox {
-        height: calc(22.5352vh + 1rem);
+        height: calc(3/4* (22.5352vh + 1rem));
     }
     .testimonials .active .testboxbackdrop {
-        height: calc(22.5352vh + 1rem);
+        height: calc(3/4* (22.5352vh + 1rem));
     }
     .testimonials .center .testbox {
-        height: calc(22.5352vh + 2rem);
+        height: calc(3/4* (22.5352vh + 2rem));
     }
     .testimonials .center .testboxbackdrop {
-        height: calc(22.5352vh + 2rem);
+        height: calc(3/4* (22.5352vh + 2rem));
     }
 }
 
@@ -1198,12 +1219,13 @@ a {
 .aboutpart {
     width: 100vw;
     /* max-width: 80rem; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 8rem;
+    padding: 0 calc(6.125vw *4.5/3);
 }
 
 .abttitle {
@@ -1211,31 +1233,31 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2.8169vh;
+    padding-bottom: calc(3/4* 2.8169vh);
 }
 
 .abtimg {
-    width: 6.25vw;
-    margin: 1.4084vh 0.625vw;
+    width: calc(3/4* 6.25vw);
+    margin: calc(3/4* 1.4084vh) calc(3/4* 0.625vw);
 }
 
 .aboutpt {
     width: 70%;
-    padding: 0.3521vh 0.1562vw;
-    margin: 2.8169vh 1.25vw;
-    border-radius: 0.5468vw;
+    padding: calc(3/4* 0.3521vh) calc(3/4* 0.1562vw);
+    margin: calc(3/4* 2.8169vh) calc(3/4* 1.25vw);
+    border-radius: calc(3/4* 0.5468vw);
 }
 
 .abtpoint {
-    border-radius: 0.5468vw;
+    border-radius: calc(3/4* 0.5468vw);
     border: 0.0781vw white dashed;
-    padding: 4.2253vh 1.875vw;
+    padding: calc(3/4* 4.2253vh) calc(3/4* 1.875vw);
     position: relative;
     background: #0a0823;
 }
 
 .abtline {
-    font-size: 4.2253vh;
+    font-size: calc(3/4* 4.2253vh);
 }
 
 .aboutpt:hover {
@@ -1243,7 +1265,7 @@ a {
 }
 
 .aboutpt:hover .abtpoint {
-    border: 0.0781vw solid #0a0823;
+    border: calc(3/4* 0.0781vw) solid #0a0823;
 }
 
 .aboutpt:hover .abtpoint .abtfeild .feildtxt {
@@ -1258,7 +1280,7 @@ a {
         width: 100vw;
         max-width: 80rem;
         min-height: 100vh;
-        margin-top: 4rem;
+        margin-top: 8rem;
     }
     .abttitle {
         padding-bottom: 1rem;
@@ -1312,7 +1334,6 @@ a {
         justify-content: space-evenly;
         flex-wrap: wrap;
         row-gap: 1.5rem;
-        margin-top: 4rem;
     }
 
     .card {
@@ -1368,14 +1389,13 @@ a {
 
 @media screen and (min-width:1280px) {
     .team {
-        padding: 5.6338vh 2.5vw;
+        padding: calc(3/4* 5.6338vh) calc(3/4* 2.5vw);
         width: 70%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        row-gap: 4.225vh;
-        margin-top: 4rem;
+        row-gap: calc(3/4* 4.225vh);
     }
 
     .card {
@@ -1384,10 +1404,10 @@ a {
         border-radius: 5%;
         display: flex;
         flex-direction: column;
-        row-gap: 2.8169vh;
-        padding: 1.8169vh 1.25vw 5.6338vh 1.25vw;
-        width: 22.5vw;
-        height: 22.5vw;
+        row-gap: calc(3/4* 2.8169vh);
+        padding: calc(3/4* 1.8169vh) calc(3/4* 1.25vw) calc(3/4* 5.6338vh) calc(3/4* 1.25vw);
+        width: calc(3/4* 22.5vw);
+        height:calc(3/4* 22.5vw);
         transition: all 0.1s ease-out;
         position: relative;
 
@@ -1400,9 +1420,9 @@ a {
         position: absolute;
         color: rgba(255, 255, 255, 0.03);
         font-weight: bold;
-        bottom: 1.7605vh;
-        right: 0.7812vw;
-        font-size: 15.0845vh;
+        bottom: calc(3/4* 1.7605vh);
+        right: calc(3/4* 0.7812vw);
+        font-size: calc(3/4* 15.0845vh);
         user-select: none;
     }
 
@@ -1412,22 +1432,22 @@ a {
     }
 
     .card img {
-        width: 6.25vw;
-        height: 6.25vw;
+        width: calc(3/4* 6.25vw);
+        height: calc(3/4* 6.25vw);
         position: relative;
-        top: -4.4014vh;
+        top: calc(3/4* -4.4014vh);
         object-fit: cover;
         object-position: 0 0;
         border-radius: 50%;
     }
     .card h3{
-        font-size: 4.2253vh;
+        font-size: calc(3/4* 4.2253vh);
     }
     .card h5 {
-        font-size: 3.1690vh;
+        font-size: calc(3/4* 3.1690vh);
     }
     .card p{
-        font-size: 2.8169vh;
+        font-size: calc(3/4* 2.8169vh);
     }
 }
 
