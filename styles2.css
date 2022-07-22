@@ -31,7 +31,7 @@ a {
 }
 
 .popupBox {
-    width: 84%;
+    width: 64%;
     /* max-width: 67rem; */
     height: calc(3/4* 85vh);
     z-index: 10;
