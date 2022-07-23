@@ -699,7 +699,7 @@ a {
 }
 
 .ftimage {
-    top: calc(2.1/3* -8.4507vh);
+    top: calc(2.1/3* -12.4507vh);
     left: auto;
     right: auto;
     position: absolute;
@@ -758,7 +758,7 @@ a {
         padding: 1rem;
     }
     .ftimage {
-        top: -3rem;
+        top: -4rem;
         width: 6rem;
     }
     .features {
