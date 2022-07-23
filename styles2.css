@@ -126,9 +126,9 @@ a {
 @media screen and (max-width:1080px) {
     .popupBox {
         max-width: 67rem;
-        height: 85vh;
+        height: 65vh;
         border-radius: 20px;
-        top: 4rem;
+        top: 8rem;
         padding: 2rem;
         padding-left: 1rem;
         padding-right: 3rem;
@@ -136,6 +136,7 @@ a {
     .popupclosebtn {
         top: 0.75rem;
         right: 0.75rem;
+        /* width: 3rem; */
     }
     .popuptext {
         font-size: 1.5rem;
@@ -188,9 +189,10 @@ a {
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .popupBox {
-        height: 90vh;
+        width: 80vw;
+        height: 70vh;
     }
 
     .popupimage {
