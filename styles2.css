@@ -860,10 +860,12 @@ a {
 }
 
 .galleryinfotext {
-    font-size: calc(3/4* 3.3802vh);
+    font-size: calc(3/4* 3.302vh);
     font-weight: 500;
 }
-
+.galleryinfotext li {
+    margin-bottom:10px
+}
 @media screen and (max-width: 1180px) {
     .gallery {
         width: 100vw;
@@ -884,7 +886,7 @@ a {
         border-radius: 7px;
     }
     .galleryinfotext {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .gallerycarousel {
         width: 18rem;
