@@ -42,13 +42,14 @@
             <div class="popupimage">
                 <img class="popupimg" src="./images/popup illust.png" alt="" />
             </div>
-            <div class="popupcontent">
+            <form  id="email-form" action="#" class="popupcontent">
                 <div class="popuptext">
                     Download our App and Join our Mailing List and get a chance to win amazing merchandise and NFTs.
                 </div>
-                <input class="popupfeild" placeholder="Email Address"></input>
-                <button class="popupbtn">Try Now</button>
-            </div>
+                <input id="email-input" class="popupfeild" type="email"  placeholder="Email Address" required="required" name="entry.334614873" ></input>
+                <button class="popupbtn" type="submit" >Try Now</button>
+                <label style="margin-top: 1rem" for="email-input"></label>
+            </form>
         </div>
         <div class="nav">
             <div class="OnfinanceHeader">
@@ -425,9 +426,12 @@
 					<p>
 						Get the latest news and updates right to your inbox
 					</p>
-					<form>
-						<input type="email" name="signup" id="signup-input" placeholder="Enter your email">
-						<button>Subscribe</button>
+					<form id="email-form-footer" action="#">
+                        <div class="feildspacer">
+						    <input type="email" id="signup-input" placeholder="Enter your email" required="required" name="entry.334614873">
+						    <button type="submit">Subscribe</button>
+                        </div>
+                        <label style="margin-top: 1rem" for="signup-input"></label>
 					</form>
 				</div>
 				<!-- Copyright &copy 2022 All rights reserved | OnFinance -->
@@ -461,5 +465,6 @@
             referrerpolicy="no-referrer"
         ></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.1/vanilla-tilt.min.js"></script>
+        <script src="js/ajaxchimp.js"></script>
     </body>
 </html>

@@ -1560,6 +1560,10 @@ footer h2:hover {
 
 #footer-signup form {
     display: flex;
+    flex-direction: column;
+}
+#footer-signup .feildspacer {
+    display: flex;
     flex-direction: row;
     height: calc(3/4* 2.5rem);
     gap: calc(3/4* 1rem);

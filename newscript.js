@@ -21,19 +21,20 @@ const popup = document.querySelector('.popupBox');
 const popupclose = document.querySelector('.popupclosebtn');
 const popupopen = document.querySelectorAll('.specialRewards');
 
-popupopen.forEach(item => {
-    item.addEventListener('click', () => {
-        popup.classList.remove('hidden');
-    })
-});
-
 const OpenPopup = () => {
     popup.classList.remove('hidden');
 }
+const ClosePopup = () => {
+    popup.classList.add('hidden');
+}
+popupopen.forEach(item => {
+    item.addEventListener('click', () => {
+        OpenPopup();
+    })
+});
 
 popupclose.addEventListener('click', () => {
-    popup.classList.add('hidden');
-    console.log("popup")
+    ClosePopup();
 });
 
 const hamburger = document.querySelector('.hamburger');
@@ -120,3 +121,28 @@ $(document).ready(function(){
     setTimeout(OpenPopup,1500);
 });
 
+//form in jquery
+
+(function ($) {
+    "use strict";
+    $('#email-form').ajaxChimp({
+        url: 'https://quomodosoft.us14.list-manage.com/subscribe/post?u=b2a3f199e321346f8785d48fb&amp;id=d0323b0697', //Set Your Mailchamp URL
+        callback: function (resp) {
+            if (resp.result === 'success') {
+                ClosePopup();
+                console.log(resp.msg);
+                $('#email-input').val('');
+            }
+        }
+    });
+    $('#email-form-footer').ajaxChimp({
+        url: 'https://quomodosoft.us14.list-manage.com/subscribe/post?u=b2a3f199e321346f8785d48fb&amp;id=d0323b0697', //Set Your Mailchamp URL
+        callback: function (resp) {
+            if (resp.result === 'success') {
+                ClosePopup();
+                console.log(resp.msg);
+                $('#signup-input').val('');
+            }
+        }
+    });
+})(jQuery);
