@@ -118,7 +118,7 @@ $(document).ready(function(){
     //     },
     // });
     
-    setTimeout(OpenPopup,1500);
+//     setTimeout(OpenPopup,1500);
 });
 
 //form in jquery
